@@ -1,5 +1,5 @@
 {
-    "name": "jobapis/jobs-ziprecruiter",
+    "name": "zao-web/jobs-ziprecruiter",
     "type": "library",
     "description": "Making it simple to integrate your application with ZipRecruiter Jobs API.",
     "keywords": [
@@ -7,6 +7,12 @@
         "api client",
         "object",
         "ziprecruiter"
+    ],
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/zao-web/jobs-common.git"
+        }
     ],
     "homepage": "https://github.com/jobapis/jobs-ziprecruiter",
     "license": "Apache-2.0",
@@ -19,7 +25,7 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "jobapis/jobs-common": "^2.0.0"
+        "zao-web/jobs-common": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=4.6",
